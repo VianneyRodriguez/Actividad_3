@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+
+/*
+Tarea
+
+hacer que el cliente en la tienda de mascotas pueada comprar tres masacotas :D
+y que cada macota tenga 2 colores difrentes para elegir
+*/
+
+void main(){
+	unsigned char numeroDeGatos, contador ;
+	printf("\n\tIngresa el numero de gatos: ");
+	scanf("%i", &numeroDeGatos);
+	
+	for ( contador = 0 ; contador < numeroDeGatos ; contador++ )
+	{
+		printf("\n\tEl gato %d dice miow :3 ", contador + 1  );
+	}
+}
